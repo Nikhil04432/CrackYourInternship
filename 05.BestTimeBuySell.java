@@ -6,10 +6,10 @@ class Solution {
        for (int i = 0; i < prices.length; i++) {
            if(buy < prices[i])
            {
-               int profit =  prices[i] - buy ;
+               int profit =  prices[i] - buy ; 
                Maxprofit = Math.max(Maxprofit,profit);
            }
-           else{
+           else{ 
                 buy = prices[i];
            }
         }
